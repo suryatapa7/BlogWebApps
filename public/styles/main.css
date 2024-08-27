@@ -257,6 +257,7 @@ input[type="submit"]:hover {
 
 .view-btn:hover {
   background-color: #23527c;
+  color: #fff;
 }
 
 .btn-wrapper {
@@ -287,6 +288,7 @@ input[type="submit"]:hover {
 
 .edit-btn:hover {
   background-color: #23527c;
+  color:#fff;
 }
 
 /* Footer Styles */
