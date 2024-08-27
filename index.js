@@ -12,7 +12,7 @@ const blogDetailsPath = join(__dirname, "views/storyList.ejs");
 
 
 const app = express();
-const port = 3000;
+const port = process.env.port || 5000
 
 // The 'view engine' is the template engine that we will use to render dynamic templates. In this case, we are using EJS (Embedded JavaScript) as our template engine. EJS allows us to write JavaScript code directly in the templates, which gets executed when the template is rendered. The templates are stored in the 'views' folder. The rendered HTML is then sent as a response to the client.
 app.set('view engine', 'ejs');
